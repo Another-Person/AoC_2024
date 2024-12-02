@@ -1,25 +1,23 @@
 ﻿/* AoC_2024_Day_1
  * Joey Sachtleben
- * Licenced under the MIT licence. See LICENSE.txt for details.
- *
- ***
+ * Licensed under the MIT license. See LICENSE.txt for details.
  *
  */
 
-#include <iostream>
-#include <filesystem>
-#include <vector>
 #include <algorithm>
+#include <filesystem>
 #include <fstream>
-#include <string>
-#include <sstream>
+#include <iostream>
 #include <numeric>
+#include <sstream>
+#include <string>
+#include <vector>
 
 #include "AoC_2024_Day_1.h"
 
 
-using std::cout;
 using std::cerr;
+using std::cout;
 using std::vector;
 
 using ss = std::stringstream;
@@ -121,7 +119,7 @@ int main(int argc, char* argv[])
 		std::ranges::sort(list2);
 
 
-		// Part 1 
+		// Part 1
 		// Find the distance between each pair
 		vector<int32_t> distances;
 		for (size_t i = 0; i < list1.size(); ++i)

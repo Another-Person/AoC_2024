@@ -1,15 +1,14 @@
 ﻿/* AoC_2024_Day_2
  * Joey Sachtleben
- * Licenced under the MIT licence. See LICENSE.TXT for details.
+ * Licensed under the MIT license. See LICENSE.TXT for details.
  *
  */
 
 #include <filesystem>
+#include <fstream>
+#include <iostream>
 #include <string>
 #include <sstream>
-#include <exception>
-#include <iostream>
-#include <fstream>
 #include <vector>
 
 #include "AoC_2024_Day_2.h"
@@ -148,7 +147,7 @@ int main(int argc, char* argv[])
 				msg << "Error reading line " << lineCounter << " from input file.\n";
 				throw std::runtime_error(msg.str());
 			}
-			
+
 
 			ss line;
 			line << rawLine;

@@ -6,6 +6,7 @@
 # Section added by JS
 input*.txt
 [Oo]ut/
+.vscode/
 # End Section
 
 # User-specific files
