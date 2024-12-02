@@ -5,6 +5,7 @@
 
 # Section added by JS
 input*.txt
+[Oo]ut/
 # End Section
 
 # User-specific files
