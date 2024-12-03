@@ -7,6 +7,9 @@
 input*.txt
 [Oo]ut/
 .vscode/
+.idea/
+[Tt]arget/
+Cargo.lock
 # End Section
 
 # User-specific files
