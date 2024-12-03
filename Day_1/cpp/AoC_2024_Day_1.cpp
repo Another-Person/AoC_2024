@@ -1,6 +1,6 @@
-﻿/* AoC_2024_Day_1
+﻿/* Advent of Code 2024 -- Day 1
  * Joey Sachtleben
- * Licensed under the MIT license. See LICENSE.txt for details.
+ * Licensed under the MIT license. See LICENSE for details.
  *
  */
 
